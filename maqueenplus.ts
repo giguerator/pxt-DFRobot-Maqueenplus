@@ -322,7 +322,7 @@ namespace DFRobotMaqueenPlus {
      * Control the color of RGB LED 
      */
     //% weight=50
-    //% block="set |%rgbshow color|%color"
+    //% block="setA |%rgbshow color|%color"
     export function setRGBLight(rgbshow: RGBLight, color: Color): void {
 
         if (rgbshow == 1) {
