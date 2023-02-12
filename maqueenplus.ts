@@ -41,9 +41,9 @@ enum Motors1 {
 
 enum Dir {
     //% block="rotate forward"
-    CW = 1,
+    CW = 2,
     //% block="backward"
-    CCW = 2
+    CCW = 1
 }
 
 enum Servos {
